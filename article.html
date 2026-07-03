@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article — Under Tension</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="site-wordmark" href="index.html">Under Tension<span>.</span></a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="article.html" aria-current="page">Article</a>
+        <a href="video.html">Video</a>
+        <a href="references.html">References</a>
+      </nav>
+    </div>
+    <div class="rope-rule" role="presentation"></div>
+  </header>
+
+  <main>
+
+    <section class="hero" style="padding-bottom: 1rem;">
+      <p class="eyebrow">Popular Science Article</p>
+      <h1>[Article Title Goes Here]</h1>
+      <p style="color: var(--ink-soft);">Revised version pending — final draft will be posted here after next week's revisions.</p>
+    </section>
+
+    <section style="border-top: none; padding-top: 0;">
+
+      <!-- OPTION A: paste your finished article directly into this page -->
+      <div class="placeholder">
+        <p class="eyebrow">Option A — embed the article as page text</p>
+        <p>
+          Once your revised article is finalized, delete this placeholder block and paste
+          your article's text directly here, wrapped in normal <code>&lt;h2&gt;</code> and
+          <code>&lt;p&gt;</code> tags so it matches the site's typography.
+        </p>
+      </div>
+
+      <p style="text-align:center; font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); margin: 1.6rem 0;">— or —</p>
+
+      <!-- OPTION B: link out to / embed a formatted document (e.g. a PDF export of your Word doc) -->
+      <div class="article-embed">
+        <div class="article-toolbar">
+          <span>article.pdf</span>
+          <a href="#" style="color: var(--ink-soft);">Open in new tab ↗</a>
+        </div>
+        <!-- Replace src below with the path to your exported PDF once it's ready -->
+        <iframe src="" title="Popular science article PDF" loading="lazy"></iframe>
+      </div>
+      <p class="eyebrow" style="margin-top: 0.8rem;">Option B — embed a PDF export of your polished, two-column article</p>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <span>Site shell — Stage 1 of build</span>
+      <span>Last updated: <!-- TODO: date --></span>
+    </div>
+  </footer>
+
+</body>
+</html>
